@@ -1,0 +1,123 @@
+/******************
+RESET
+******************/
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/******************
+BASE
+******************/
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(top, #FFFFFF 0%, #C5C5C5 30%) no-repeat;
+  background: -moz-linear-gradient(top, #FFFFFF 0%, #C5C5C5 30%) no-repeat;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FFFFFF), color-stop(30%, #c5c5c5)) no-repeat;
+  height: 100%;
+  background-color: #C5C5C5;
+  color: #222;
+  font-family: Helvetica, arial, serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  line-height: 1.2em;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 70%;
+}
+
+#header, #misc {
+  width: 24.210526315789%; /* 230 / 950 */
+  float: left;
+  margin-left: 4.210526315789%; /* 40 / 950 */
+}
+
+#main_content {
+  float: left;
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+
+/******************
+HEADER
+******************/
+
+#logo {
+  margin: 100% 0 30px 0;
+}
+
+#logo h1 {
+  text-indent: -20000px;
+}
+
+#logo h2 {
+  text-align: right;
+  margin-top: -5%;
+  font-size: 1.2em;
+  text-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+}
+
+#header p {
+  font-size: 1.2em;
+  margin-bottom: 24px;
+  color: #555;
+}
+
