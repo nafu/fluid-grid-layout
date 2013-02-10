@@ -1,0 +1,18 @@
+/*******************
+1700px
+********************/
+
+@media (max-width: 1700px) {
+  
+  body {
+    background: yellow;
+  }
+  
+  #header p {
+    font-size: 1.1em;
+  }
+  
+  #misc #call_to_action {
+    font-size: 1.3em;
+  }
+}
