@@ -161,3 +161,24 @@
     -webkit-text-security: none;
   }
 }
+
+
+/*******************
+iPad
+********************/
+
+@media only screen and (min--device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: portrait) {
+    #phone #video_container video {
+      height: 282px;
+    }
+}
+
+@media only screen and (min--device-width: 768px)
+                   and (max-device-width: 1024px)
+                   and (orientation: landscape) {
+    #phone #video_container video {
+      height: 376px;
+    }
+}
