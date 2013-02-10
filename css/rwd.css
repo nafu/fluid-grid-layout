@@ -116,7 +116,7 @@
   }
 
   #phone #video_container #video_app_screenshot {
-    display: block;
+    display: inline;
   }
 
   #header, #phone, #misc {
