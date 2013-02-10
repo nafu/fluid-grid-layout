@@ -212,3 +212,52 @@ QUOTES
   margin-left: 5%;
   color: #555;
 }
+
+
+/******************
+FEATURES
+******************/
+
+#features {
+  float: left;
+}
+
+#features .feature {
+  width: 32.6315789473684%; /* 310 / 950 */
+  float: left;
+  min-height: 200px;
+}
+
+#features .feature .icon {
+  float: left;
+  width: 22.9032258064516%; /* 71 / 310 */
+  margin-right: 3.2258064516129%; /* 10 / 310 */
+  height: 100%;
+}
+
+#features .feature .info {
+  float: left;
+  width: 73%;
+  margin-top: 2%;
+}
+
+#features .feature h3 {
+  font-family: 'Pacifico', arial, serif;
+  font-size: 1.8em;
+  margin-bottom: 16px;
+}
+
+#features .feature p {
+  font-size: 1.1em;
+  color: #555;
+}
+
+#features .feature:nth-child(1),
+#features .feature:nth-child(3) {
+  margin-left: 12.7368421052632%; /* 121 / 950 */
+}
+
+#features .feature:nth-child(2),
+#features .feature:nth-child(4) {
+  margin-left: 9.4736842105263%; /* 90 / 950 */
+}
