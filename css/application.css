@@ -158,6 +158,11 @@ VIDEO CONTAINER
                               /* 346 / 1021 */
 }
 
+#phone #video_container #video_app_screenshot,
+#phone #video_container #phone_static {
+  display: none;
+}
+
 
 /******************
 CALL TO ACTION
