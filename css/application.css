@@ -121,3 +121,39 @@ HEADER
   color: #555;
 }
 
+
+/******************
+VIDEO CONTAINER
+******************/
+
+#phone {
+  width: 32.6315789473684%; /* 310 /950 */
+  float: left;
+  background: url('../images/phone.png') top center no-repeat;
+  -webkit-background-size: 100% auto;
+  -moz-background-size: 100% auto;
+  background-size: 100% auto;
+  margin-left: 4.2105263157895%; /* 40 / 950 */
+  margin-top: 35px;
+}
+
+/*
+
+1021 = width of phone
+1978 = height of phone
+
+853 = width of video area
+1280 = height of video area
+
+352 = height of area above video
+346 = height of area below video
+
+*/
+
+#phone #video_container {
+  width: 83.5455435847209%;   /* 853 / 1021 */
+  margin: 34.4760039177277%
+          auto
+          33.8883447600392%;  /* 352 / 1021 */
+                              /* 346 / 1021 */
+}
