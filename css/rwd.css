@@ -99,3 +99,65 @@
     width: 90%;
   }
 }
+
+
+/*******************
+720px
+********************/
+
+@media (max-width: 720px) {
+
+  body {
+    background: #C5C5C5;
+  }
+
+  #phone #video_container video {
+    display: none;
+  }
+
+  #phone #video_container #video_app_screenshot {
+    display: block;
+  }
+
+  #header, #phone, #misc {
+    float: left;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #header p {
+    -webkit-text-size-adjust: none;
+  }
+
+  #phone {
+    margin-bottom: 50px;
+    background: transparent;
+    float: none;
+  }
+
+  #phone #video_container {
+    width: 100%;
+    margin: 0px
+            auto
+            10%;
+  }
+
+  #misc #call_to_action {
+    background: #1DA051;
+  }
+
+  #misc #call_to_action:hover {
+    background: #46FF6C;
+  }
+
+  #features .feature:nth-child(1n) {
+    float: left;
+    width: 100%;
+    margin: 0 auto 30px auto;
+  }
+
+  #features .feature .info p {
+    font-size: 1em;
+    -webkit-text-security: none;
+  }
+}
