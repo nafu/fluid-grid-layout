@@ -192,3 +192,23 @@ CALL TO ACTION
   background: url('../images/noise.png'), -webkit-gradient(linear, left top, left bottom, color-stop(0%, #46FF6C), color-stop(100%, #46D06C));
   background-color: #46FF6C;
 }
+
+
+/******************
+QUOTES
+******************/
+
+#misc blockquote {
+  font-family: 'Pacifico', arial, serif;
+  font-size: 1.6em;
+  line-height: 1.8em;
+  margin-bottom: 24px;
+}
+
+#misc blockquote div {
+  font-family: Helvetica, arial, serif;
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-left: 5%;
+  color: #555;
+}
